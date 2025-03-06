@@ -1,0 +1,1222 @@
+{
+    "routes": [
+      {
+        "routeId": "c36587fe-0446-4f7f-8ed0-34edc96ad660",
+        "routeName": "Snillfjordsveien",
+        "nvdbReferenceLinks": [],
+        "isObstructed": false,
+        "obstructingFeatures": {
+          "bomstasjoner": [],
+          "rasteplasser": [],
+          "vegkameraer": [],
+          "heights": [],
+          "dognhvileplasser": [],
+          "lengths": [],
+          "turistVeger": [],
+          "weights": [],
+          "ferger": [],
+          "ladestasjoner": [],
+          "datex3TrafficMessages": [],
+          "trafficMessages": [],
+          "swedishTrafficMessages": [],
+          "finnishTrafficMessages": [],
+          "vegsperringer": [],
+          "varutsatteVeger": [],
+          "measurementSites": [],
+          "jernbanekryssingerMedSaerskiltFare": [],
+          "tunneler": []
+        },
+        "statistic": {
+          "percentCity": 0,
+          "percentMotorway": 100,
+          "percentOutsideCity": 100,
+          "meterFerry": "0",
+          "tollSmall": "0",
+          "tollLarge": "0",
+          "tollSmallNoDiscount": "0",
+          "tollLargeNoDiscount": "0",
+          "ferryCount": "0",
+          "tollCount": "0",
+          "distanceInZeroEmissionZone": "0",
+          "totalDriveTime": 10.083333333333334,
+          "totalTime": 10.083333333333334,
+          "totalLength": 12053
+        },
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "LineString",
+              "coordinates": [
+                [
+                  9.5135,
+                  63.428678
+                ],
+                [
+                  9.512464,
+                  63.428845
+                ],
+                [
+                  9.5118,
+                  63.428954
+                ],
+                [
+                  9.511277,
+                  63.42906
+                ],
+                [
+                  9.510879,
+                  63.429144
+                ],
+                [
+                  9.510265,
+                  63.429309
+                ],
+                [
+                  9.509252,
+                  63.429666
+                ],
+                [
+                  9.508202,
+                  63.430111
+                ],
+                [
+                  9.507404,
+                  63.430396
+                ],
+                [
+                  9.506898,
+                  63.43052
+                ],
+                [
+                  9.504905,
+                  63.430956
+                ],
+                [
+                  9.502834,
+                  63.431381
+                ],
+                [
+                  9.500776,
+                  63.431742
+                ],
+                [
+                  9.498805,
+                  63.432062
+                ],
+                [
+                  9.49775,
+                  63.432219
+                ],
+                [
+                  9.497096,
+                  63.432275
+                ],
+                [
+                  9.496429,
+                  63.432294
+                ],
+                [
+                  9.496348,
+                  63.4323
+                ],
+                [
+                  9.496107,
+                  63.4323
+                ],
+                [
+                  9.495663,
+                  63.43231
+                ],
+                [
+                  9.494951,
+                  63.432354
+                ],
+                [
+                  9.49427,
+                  63.432445
+                ],
+                [
+                  9.493791,
+                  63.432535
+                ],
+                [
+                  9.493346,
+                  63.432652
+                ],
+                [
+                  9.492958,
+                  63.43279
+                ],
+                [
+                  9.492516,
+                  63.432998
+                ],
+                [
+                  9.492267,
+                  63.433142
+                ],
+                [
+                  9.491985,
+                  63.433356
+                ],
+                [
+                  9.491705,
+                  63.43366
+                ],
+                [
+                  9.491341,
+                  63.434195
+                ],
+                [
+                  9.490997,
+                  63.434731
+                ],
+                [
+                  9.490806,
+                  63.4352
+                ],
+                [
+                  9.490759,
+                  63.435441
+                ],
+                [
+                  9.490767,
+                  63.435712
+                ],
+                [
+                  9.490784,
+                  63.43573
+                ],
+                [
+                  9.49079,
+                  63.435803
+                ],
+                [
+                  9.490787,
+                  63.43582
+                ],
+                [
+                  9.490855,
+                  63.436615
+                ],
+                [
+                  9.490782,
+                  63.437098
+                ],
+                [
+                  9.490569,
+                  63.437576
+                ],
+                [
+                  9.490425,
+                  63.437804
+                ],
+                [
+                  9.49026,
+                  63.438032
+                ],
+                [
+                  9.489959,
+                  63.438344
+                ],
+                [
+                  9.487088,
+                  63.440933
+                ],
+                [
+                  9.486991,
+                  63.44102
+                ],
+                [
+                  9.486987,
+                  63.441038
+                ],
+                [
+                  9.486669,
+                  63.441331
+                ],
+                [
+                  9.486406,
+                  63.441654
+                ],
+                [
+                  9.486099,
+                  63.442101
+                ],
+                [
+                  9.486065,
+                  63.442172
+                ],
+                [
+                  9.486062,
+                  63.44219
+                ],
+                [
+                  9.486031,
+                  63.442243
+                ],
+                [
+                  9.485853,
+                  63.442749
+                ],
+                [
+                  9.485744,
+                  63.443419
+                ],
+                [
+                  9.485742,
+                  63.443428
+                ],
+                [
+                  9.485726,
+                  63.443617
+                ],
+                [
+                  9.485724,
+                  63.443626
+                ],
+                [
+                  9.485723,
+                  63.443635
+                ],
+                [
+                  9.48573,
+                  63.443698
+                ],
+                [
+                  9.48573,
+                  63.443806
+                ],
+                [
+                  9.485725,
+                  63.443833
+                ],
+                [
+                  9.485655,
+                  63.444298
+                ],
+                [
+                  9.485556,
+                  63.4446
+                ],
+                [
+                  9.485318,
+                  63.445005
+                ],
+                [
+                  9.485079,
+                  63.445302
+                ],
+                [
+                  9.484691,
+                  63.445647
+                ],
+                [
+                  9.484432,
+                  63.445844
+                ],
+                [
+                  9.484041,
+                  63.446098
+                ],
+                [
+                  9.483525,
+                  63.446376
+                ],
+                [
+                  9.480978,
+                  63.447591
+                ],
+                [
+                  9.480623,
+                  63.447766
+                ],
+                [
+                  9.480357,
+                  63.447891
+                ],
+                [
+                  9.480157,
+                  63.447991
+                ]
+              ]
+            },
+            "properties": {
+              "time": 172,
+              "length": 3009,
+              "maneuverType": "EsriDmtDepart",
+              "maneuverText": "{F714} Start på Snillfjordsveien",
+              "isOutsideOfNorway": false,
+              "roadFeatures": {
+                "bomstasjoner": [],
+                "rasteplasser": [],
+                "vegkameraer": [],
+                "heights": [
+                  {
+                    "nvdbId": "85344663",
+                    "heightRestriction": "4.5",
+                    "skiltaHoyde": "",
+                    "beregnaHoyde": "4.5",
+                    "avoidFeatureInstanceId": "Height;85344663",
+                    "location": {
+                      "x": 9.490766,
+                      "y": 63.435721,
+                      "sourceReferenceSystem": "EPSG_4326",
+                      "geometry": null,
+                      "name": null
+                    }
+                  }
+                ],
+                "dognhvileplasser": [],
+                "lengths": [
+                  {
+                    "maxLength": "19.5",
+                    "location": null
+                  }
+                ],
+                "turistVeger": [],
+                "weights": [
+                  {
+                    "maxWeight": "50",
+                    "location": null
+                  }
+                ],
+                "ferger": [],
+                "ladestasjoner": [],
+                "datex3TrafficMessages": [],
+                "trafficMessages": [],
+                "swedishTrafficMessages": [],
+                "finnishTrafficMessages": [],
+                "vegsperringer": [],
+                "varutsatteVeger": [],
+                "measurementSites": [],
+                "jernbanekryssingerMedSaerskiltFare": [],
+                "tunneler": [
+                  {
+                    "nvdbId": "85344662",
+                    "parentNvdbId": "85344661",
+                    "navn": "Storvasshammertunnelen",
+                    "lengde": "635",
+                    "sykkelforbud": "False",
+                    "avoidFeatureInstanceId": "Tunnel;85344662",
+                    "location": {
+                      "x": 9.490766,
+                      "y": 63.435721,
+                      "sourceReferenceSystem": "EPSG_4326",
+                      "geometry": null,
+                      "name": null
+                    }
+                  },
+                  {
+                    "nvdbId": "812446452",
+                    "parentNvdbId": "812446455",
+                    "navn": "Slørdalstunnelen",
+                    "lengde": "2642",
+                    "sykkelforbud": "True",
+                    "avoidFeatureInstanceId": "Tunnel;812446452",
+                    "location": {
+                      "x": 9.480489,
+                      "y": 63.447833,
+                      "sourceReferenceSystem": "EPSG_4326",
+                      "geometry": null,
+                      "name": null
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "LineString",
+              "coordinates": [
+                [
+                  9.480157,
+                  63.447991
+                ],
+                [
+                  9.474041,
+                  63.450922
+                ],
+                [
+                  9.47223,
+                  63.451761
+                ],
+                [
+                  9.4704,
+                  63.45259
+                ],
+                [
+                  9.468007,
+                  63.453632
+                ],
+                [
+                  9.466039,
+                  63.454446
+                ],
+                [
+                  9.464098,
+                  63.455226
+                ],
+                [
+                  9.461727,
+                  63.456151
+                ],
+                [
+                  9.459384,
+                  63.457032
+                ],
+                [
+                  9.457199,
+                  63.45782
+                ],
+                [
+                  9.454226,
+                  63.458839
+                ],
+                [
+                  9.452247,
+                  63.4595
+                ],
+                [
+                  9.449953,
+                  63.460229
+                ],
+                [
+                  9.447642,
+                  63.460941
+                ],
+                [
+                  9.441409,
+                  63.462786
+                ],
+                [
+                  9.440768,
+                  63.462977
+                ],
+                [
+                  9.440576,
+                  63.463032
+                ],
+                [
+                  9.438656,
+                  63.463597
+                ],
+                [
+                  9.436992,
+                  63.464081
+                ],
+                [
+                  9.435476,
+                  63.464535
+                ],
+                [
+                  9.435456,
+                  63.464534
+                ],
+                [
+                  9.435305,
+                  63.464582
+                ],
+                [
+                  9.433278,
+                  63.465178
+                ],
+                [
+                  9.432265,
+                  63.465526
+                ],
+                [
+                  9.43172,
+                  63.465738
+                ],
+                [
+                  9.431125,
+                  63.466003
+                ],
+                [
+                  9.430632,
+                  63.466263
+                ],
+                [
+                  9.430177,
+                  63.466533
+                ],
+                [
+                  9.429477,
+                  63.467028
+                ],
+                [
+                  9.428888,
+                  63.467572
+                ],
+                [
+                  9.428496,
+                  63.468034
+                ],
+                [
+                  9.427856,
+                  63.469044
+                ],
+                [
+                  9.427548,
+                  63.469383
+                ],
+                [
+                  9.427206,
+                  63.469693
+                ],
+                [
+                  9.427183,
+                  63.46971
+                ],
+                [
+                  9.426627,
+                  63.470085
+                ],
+                [
+                  9.426106,
+                  63.470379
+                ],
+                [
+                  9.426039,
+                  63.470413
+                ],
+                [
+                  9.425817,
+                  63.470521
+                ],
+                [
+                  9.425336,
+                  63.470718
+                ],
+                [
+                  9.424901,
+                  63.470881
+                ],
+                [
+                  9.424172,
+                  63.471114
+                ],
+                [
+                  9.423663,
+                  63.471247
+                ],
+                [
+                  9.422969,
+                  63.4714
+                ],
+                [
+                  9.422073,
+                  63.471554
+                ],
+                [
+                  9.421598,
+                  63.471616
+                ],
+                [
+                  9.420677,
+                  63.471697
+                ],
+                [
+                  9.418282,
+                  63.471802
+                ],
+                [
+                  9.417344,
+                  63.471864
+                ],
+                [
+                  9.416401,
+                  63.471953
+                ],
+                [
+                  9.415043,
+                  63.472107
+                ],
+                [
+                  9.412102,
+                  63.472532
+                ]
+              ]
+            },
+            "properties": {
+              "time": 215,
+              "length": 4486,
+              "maneuverType": "EsriDmtStraight",
+              "maneuverText": "{F714} Fortsett på Snillfjordsveien",
+              "isOutsideOfNorway": false,
+              "roadFeatures": {
+                "bomstasjoner": [],
+                "rasteplasser": [],
+                "vegkameraer": [],
+                "heights": [],
+                "dognhvileplasser": [],
+                "lengths": [
+                  {
+                    "maxLength": "19.5",
+                    "location": null
+                  }
+                ],
+                "turistVeger": [],
+                "weights": [
+                  {
+                    "maxWeight": "50",
+                    "location": null
+                  }
+                ],
+                "ferger": [],
+                "ladestasjoner": [],
+                "datex3TrafficMessages": [],
+                "trafficMessages": [
+                  {
+                    "situationId": "NPRA_HBT_06-03-2025.46053",
+                    "type": "RoadClosed",
+                    "simpleDetailsUrl": "https://traffic-info.atlas.vegvesen.no/traffic-information/messages/NPRA_HBT_06-03-2025.46053",
+                    "datex3DetailsUrl": "https://ogckart-sn1.atlas.vegvesen.no/datex_3_1/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=datex_3_1%3ASituation&outputFormat=application%2Fjson&CQL_FILTER=recordId='NPRA_HBT_06-03-2025.46053'",
+                    "startTime": "2025-03-06T04:10:00+01:00",
+                    "estimatedEndTime": "2025-03-06T15:00:00+01:00",
+                    "avoidFeatureInstanceId": "TrafficMessage;NPRA_HBT_06-03-2025.46053",
+                    "location": {
+                      "x": 9.446555,
+                      "y": 63.461261,
+                      "sourceReferenceSystem": "EPSG_4326",
+                      "geometry": null,
+                      "name": null
+                    }
+                  }
+                ],
+                "swedishTrafficMessages": [],
+                "finnishTrafficMessages": [],
+                "vegsperringer": [],
+                "varutsatteVeger": [],
+                "measurementSites": [],
+                "jernbanekryssingerMedSaerskiltFare": [],
+                "tunneler": [
+                  {
+                    "nvdbId": "812446452",
+                    "parentNvdbId": "812446455",
+                    "navn": "Slørdalstunnelen",
+                    "lengde": "2642",
+                    "sykkelforbud": "True",
+                    "avoidFeatureInstanceId": "Tunnel;812446452",
+                    "location": {
+                      "x": 9.46201,
+                      "y": 63.456036,
+                      "sourceReferenceSystem": "EPSG_4326",
+                      "geometry": null,
+                      "name": null
+                    }
+                  },
+                  {
+                    "nvdbId": "812446453",
+                    "parentNvdbId": "812446454",
+                    "navn": "Mjønestunnelen",
+                    "lengde": "770",
+                    "sykkelforbud": "True",
+                    "avoidFeatureInstanceId": "Tunnel;812446453",
+                    "location": {
+                      "x": 9.426083,
+                      "y": 63.470396,
+                      "sourceReferenceSystem": "EPSG_4326",
+                      "geometry": null,
+                      "name": null
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "LineString",
+              "coordinates": [
+                [
+                  9.412102,
+                  63.472532
+                ],
+                [
+                  9.411852,
+                  63.472576
+                ],
+                [
+                  9.41179,
+                  63.472583
+                ],
+                [
+                  9.409242,
+                  63.472951
+                ],
+                [
+                  9.407047,
+                  63.47327
+                ],
+                [
+                  9.40659,
+                  63.473342
+                ],
+                [
+                  9.403378,
+                  63.47381
+                ],
+                [
+                  9.401824,
+                  63.474037
+                ],
+                [
+                  9.399773,
+                  63.474335
+                ],
+                [
+                  9.399587,
+                  63.474363
+                ],
+                [
+                  9.399565,
+                  63.474372
+                ],
+                [
+                  9.399503,
+                  63.474378
+                ],
+                [
+                  9.39536,
+                  63.474981
+                ],
+                [
+                  9.395298,
+                  63.474987
+                ],
+                [
+                  9.395173,
+                  63.475009
+                ],
+                [
+                  9.392915,
+                  63.475335
+                ],
+                [
+                  9.392438,
+                  63.475406
+                ],
+                [
+                  9.391566,
+                  63.475543
+                ],
+                [
+                  9.390603,
+                  63.47573
+                ],
+                [
+                  9.38975,
+                  63.475975
+                ],
+                [
+                  9.389357,
+                  63.476131
+                ],
+                [
+                  9.388803,
+                  63.476388
+                ],
+                [
+                  9.388395,
+                  63.476624
+                ],
+                [
+                  9.388113,
+                  63.476829
+                ],
+                [
+                  9.387797,
+                  63.477105
+                ],
+                [
+                  9.387618,
+                  63.477296
+                ],
+                [
+                  9.387496,
+                  63.477507
+                ],
+                [
+                  9.387397,
+                  63.477809
+                ],
+                [
+                  9.387359,
+                  63.478105
+                ],
+                [
+                  9.387381,
+                  63.478402
+                ],
+                [
+                  9.387464,
+                  63.478694
+                ],
+                [
+                  9.387598,
+                  63.478933
+                ],
+                [
+                  9.387901,
+                  63.479341
+                ],
+                [
+                  9.388336,
+                  63.47979
+                ],
+                [
+                  9.389693,
+                  63.480977
+                ],
+                [
+                  9.390773,
+                  63.48183
+                ],
+                [
+                  9.391201,
+                  63.482216
+                ],
+                [
+                  9.39153,
+                  63.482589
+                ],
+                [
+                  9.391728,
+                  63.482912
+                ],
+                [
+                  9.391854,
+                  63.483295
+                ],
+                [
+                  9.391881,
+                  63.483674
+                ],
+                [
+                  9.391783,
+                  63.484066
+                ],
+                [
+                  9.39161,
+                  63.484437
+                ],
+                [
+                  9.39137,
+                  63.484734
+                ],
+                [
+                  9.391,
+                  63.485079
+                ],
+                [
+                  9.390443,
+                  63.485453
+                ],
+                [
+                  9.390237,
+                  63.48558
+                ],
+                [
+                  9.389749,
+                  63.485813
+                ],
+                [
+                  9.38811,
+                  63.486469
+                ],
+                [
+                  9.388108,
+                  63.486478
+                ],
+                [
+                  9.387999,
+                  63.486518
+                ],
+                [
+                  9.387956,
+                  63.486535
+                ],
+                [
+                  9.387869,
+                  63.486567
+                ],
+                [
+                  9.377085,
+                  63.490913
+                ],
+                [
+                  9.376107,
+                  63.49128
+                ],
+                [
+                  9.375548,
+                  63.491456
+                ],
+                [
+                  9.37491,
+                  63.491629
+                ],
+                [
+                  9.373796,
+                  63.491864
+                ],
+                [
+                  9.37309,
+                  63.491971
+                ],
+                [
+                  9.372368,
+                  63.49206
+                ],
+                [
+                  9.371121,
+                  63.492155
+                ],
+                [
+                  9.371059,
+                  63.492161
+                ],
+                [
+                  9.370937,
+                  63.492165
+                ],
+                [
+                  9.370917,
+                  63.492165
+                ],
+                [
+                  9.369846,
+                  63.492185
+                ],
+                [
+                  9.368607,
+                  63.492136
+                ],
+                [
+                  9.365862,
+                  63.491965
+                ],
+                [
+                  9.362582,
+                  63.491746
+                ],
+                [
+                  9.362166,
+                  63.491711
+                ],
+                [
+                  9.360935,
+                  63.491519
+                ],
+                [
+                  9.360288,
+                  63.49143
+                ],
+                [
+                  9.359596,
+                  63.491367
+                ],
+                [
+                  9.35898,
+                  63.491324
+                ],
+                [
+                  9.358398,
+                  63.49131
+                ],
+                [
+                  9.357674,
+                  63.491309
+                ],
+                [
+                  9.355275,
+                  63.491421
+                ],
+                [
+                  9.354655,
+                  63.491397
+                ],
+                [
+                  9.354125,
+                  63.491331
+                ],
+                [
+                  9.353467,
+                  63.491197
+                ],
+                [
+                  9.351992,
+                  63.490814
+                ]
+              ]
+            },
+            "properties": {
+              "time": 218,
+              "length": 4558,
+              "maneuverType": "EsriDmtStraight",
+              "maneuverText": "{F714} Fortsett på Snillfjordsveien",
+              "isOutsideOfNorway": false,
+              "roadFeatures": {
+                "bomstasjoner": [],
+                "rasteplasser": [],
+                "vegkameraer": [],
+                "heights": [
+                  {
+                    "nvdbId": "764746015",
+                    "heightRestriction": "4.2",
+                    "skiltaHoyde": "",
+                    "beregnaHoyde": "4.2",
+                    "avoidFeatureInstanceId": "Height;764746015",
+                    "location": {
+                      "x": 9.397432,
+                      "y": 63.474675,
+                      "sourceReferenceSystem": "EPSG_4326",
+                      "geometry": null,
+                      "name": null
+                    }
+                  },
+                  {
+                    "nvdbId": "764746016",
+                    "heightRestriction": "4.6",
+                    "skiltaHoyde": "",
+                    "beregnaHoyde": "4.6",
+                    "avoidFeatureInstanceId": "Height;764746016",
+                    "location": {
+                      "x": 9.379995,
+                      "y": 63.489741,
+                      "sourceReferenceSystem": "EPSG_4326",
+                      "geometry": null,
+                      "name": null
+                    }
+                  }
+                ],
+                "dognhvileplasser": [],
+                "lengths": [
+                  {
+                    "maxLength": "19.5",
+                    "location": null
+                  }
+                ],
+                "turistVeger": [],
+                "weights": [
+                  {
+                    "maxWeight": "50",
+                    "location": null
+                  }
+                ],
+                "ferger": [],
+                "ladestasjoner": [],
+                "datex3TrafficMessages": [],
+                "trafficMessages": [],
+                "swedishTrafficMessages": [],
+                "finnishTrafficMessages": [],
+                "vegsperringer": [],
+                "varutsatteVeger": [],
+                "measurementSites": [],
+                "jernbanekryssingerMedSaerskiltFare": [],
+                "tunneler": [
+                  {
+                    "nvdbId": "812446453",
+                    "parentNvdbId": "812446454",
+                    "navn": "Mjønestunnelen",
+                    "lengde": "770",
+                    "sykkelforbud": "True",
+                    "avoidFeatureInstanceId": "Tunnel;812446453",
+                    "location": {
+                      "x": 9.411977,
+                      "y": 63.472554,
+                      "sourceReferenceSystem": "EPSG_4326",
+                      "geometry": null,
+                      "name": null
+                    }
+                  },
+                  {
+                    "nvdbId": "376362576",
+                    "parentNvdbId": "376362575",
+                    "navn": "Brattstiåstunnelen",
+                    "lengde": "230",
+                    "sykkelforbud": "False",
+                    "avoidFeatureInstanceId": "Tunnel;376362576",
+                    "location": {
+                      "x": 9.399525,
+                      "y": 63.47437,
+                      "sourceReferenceSystem": "EPSG_4326",
+                      "geometry": null,
+                      "name": null
+                    }
+                  },
+                  {
+                    "nvdbId": "373855179",
+                    "parentNvdbId": "373855180",
+                    "navn": "Fenestunnelen",
+                    "lengde": "1075",
+                    "sykkelforbud": "False",
+                    "avoidFeatureInstanceId": "Tunnel;373855179",
+                    "location": {
+                      "x": 9.387977,
+                      "y": 63.486526,
+                      "sourceReferenceSystem": "EPSG_4326",
+                      "geometry": null,
+                      "name": null
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "LineString",
+              "coordinates": [
+                [
+                  9.351992,
+                  63.490814
+                ],
+                [
+                  9.351992,
+                  63.490814
+                ]
+              ]
+            },
+            "properties": {
+              "time": 0,
+              "length": 0,
+              "maneuverType": "EsriDmtStop",
+              "maneuverText": "{F714} Ankomst til Snillfjordsveien",
+              "isOutsideOfNorway": false,
+              "roadFeatures": {
+                "bomstasjoner": [],
+                "rasteplasser": [],
+                "vegkameraer": [],
+                "heights": [],
+                "dognhvileplasser": [],
+                "lengths": [],
+                "turistVeger": [],
+                "weights": [],
+                "ferger": [],
+                "ladestasjoner": [],
+                "datex3TrafficMessages": [],
+                "trafficMessages": [],
+                "swedishTrafficMessages": [],
+                "finnishTrafficMessages": [],
+                "vegsperringer": [],
+                "varutsatteVeger": [],
+                "measurementSites": [],
+                "jernbanekryssingerMedSaerskiltFare": [],
+                "tunneler": []
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "externalApiStatus": null
+  }

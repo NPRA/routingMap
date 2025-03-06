@@ -1,0 +1,64 @@
+{
+    "metadata": {
+      "side": 1,
+      "sokeStreng": "sok=trondheim&utkoordsys=4258&treffPerSide=10&side=1",
+      "totaltAntallTreff": 2,
+      "treffPerSide": 10,
+      "viserFra": 1,
+      "viserTil": 10
+    },
+    "navn": [
+      {
+        "fylker": [
+          {
+            "fylkesnavn": "Trøndelag - Trööndelage",
+            "fylkesnummer": "50"
+          }
+        ],
+        "kommuner": [
+          {
+            "kommunenavn": "Trondheim",
+            "kommunenummer": "5001"
+          }
+        ],
+        "navneobjekttype": "By",
+        "navnestatus": "hovednavn",
+        "representasjonspunkt": {
+          "koordsys": 4258,
+          "nord": 63.43048,
+          "øst": 10.39506
+        },
+        "skrivemåte": "Trondheim",
+        "skrivemåtestatus": "godkjent og prioritert",
+        "språk": "Norsk",
+        "stedsnummer": 558690,
+        "stedstatus": "aktiv"
+      },
+      {
+        "fylker": [
+          {
+            "fylkesnavn": "Vestland",
+            "fylkesnummer": "46"
+          }
+        ],
+        "kommuner": [
+          {
+            "kommunenavn": "Kvinnherad",
+            "kommunenummer": "4617"
+          }
+        ],
+        "navneobjekttype": "Gard",
+        "navnestatus": "hovednavn",
+        "representasjonspunkt": {
+          "koordsys": 4258,
+          "nord": 59.75707,
+          "øst": 6.03382
+        },
+        "skrivemåte": "Trondeim",
+        "skrivemåtestatus": "godkjent og prioritert",
+        "språk": "Norsk",
+        "stedsnummer": 307394,
+        "stedstatus": "aktiv"
+      }
+    ]
+  }
