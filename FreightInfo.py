@@ -10,6 +10,29 @@ import base64
 from PIL import Image, ImageDraw, ImageFont
 from datetime import datetime
 
+# Oppsett av logging 
+import logging
+import logging.handlers
+
+LOG_FILENAME = 'Log Freight Info.log'
+
+logging.basicConfig(
+    format='%(asctime)s %(levelname)-8s %(message)s',
+    level=logging.DEBUG,
+    datefmt='%Y-%m-%d %H:%M:%S')
+
+formatter = logging.Formatter(fmt='%(asctime)s %(levelname)-8s %(message)s',
+                                  datefmt='%Y-%m-%d %H:%M:%S')
+
+myLogger = logging.getLogger('myLogger')
+myLogger.setLevel(logging.INFO)
+handler = logging.handlers.TimedRotatingFileHandler(LOG_FILENAME, when = 'D', interval = 1, backupCount=90)
+handler.setFormatter(formatter)
+myLogger.addHandler(handler)
+
+myLogger.info("################################################################")
+myLogger.info("#      Starter nedlasting av strekninger                       #")
+myLogger.info("################################################################")
 # Oppsett av kartet
 map = folium.Map([69.1, 15.8],zoom_start=10,zoom_control=False)
 
@@ -22,9 +45,10 @@ height = 0 # høyde på kjøretøy, i meter
 bruksklasse = "Bk_10_50" # mulige bruksklasser (sett til "" for vanlig bil): [ Bk_6_28, Bk_8_32, Bk_T8_40, Bk_T8_50, Bk_10_42, Bk_10_50, Bk_10_56, Bk_10_60 ]
 
 
-baseurl = 'https://www.vegvesen.no/ws/no/vegvesen/ruteplan/routingservice_v3_0/open/routingservice/api/Route/best'
-#baseurl = "https://www.vegvesen.no/ws/no/vegvesen/ruteplan/routingservice_v3_0/open/routingservice/api/Route/bruksklasseNormalTransport"
+#baseurl = 'https://www.vegvesen.no/ws/no/vegvesen/ruteplan/routingservice_v3_0/open/routingservice/api/Route/best'
+baseurl = "https://www.vegvesen.no/ws/no/vegvesen/ruteplan/routingservice_v3_0/open/routingservice/api/Route/bruksklasseNormalTransport"
 
+myLogger.info("Base url used: " + baseurl)
 
 # Rutene som skal beregnes og legges inn i kartet
 ruter = [["Trondheim", "Bergen"],
@@ -39,24 +63,20 @@ ruter = [["Trondheim", "Bergen"],
          ["Alta", "Kirkenes"]
          ]
 
-# Blokk som skal bort etter hvert
-"""
-steder = ["Trondheim", "Bergen"] # [start. via, .., stopp]
-Start_sted = steder[0]
-Slutt_sted = steder[-1]
-"""
+# Ferdig med setting parametere 
+############################################################
 
 def leggRutePaaKart(map, steder, baseurl):
 
-    locs = []
+    stops = []
     for sted in steder:
         sok = requests.get(f"https://api.kartverket.no/stedsnavn/v1/navn?sok={sted}&fuzzy=true&utkoordsys=4258&treffPerSide=10&side=1")
-        #print(sok.url)
+        myLogger.info(sok.url)
+        myLogger.info(f'Status code: {sok.status_code} - {sok.reason}')
         data = sok.json()
-        locs.append([data["navn"][0]["representasjonspunkt"]["nord"],data["navn"][0]["representasjonspunkt"]["øst"]])
-    #print(locs)
+        stops.append([data["navn"][0]["representasjonspunkt"]["nord"],data["navn"][0]["representasjonspunkt"]["øst"]])
 
-    stops = locs #[[63.428633,9.513474],[63.490839,9.35194]]
+    #stops = locs 
     stopParam =  ""
     for s in stops:
         stopParam = stopParam + str(s[1])+","+str(s[0])+";"
@@ -72,10 +92,13 @@ def leggRutePaaKart(map, steder, baseurl):
     if height > 0:
         url1 = url1 + "&Height="+str(height)
     x = requests.get(url1)
-    print(x.url)
+    myLogger.info(x.url)
+    myLogger.info(f'Status code: {x.status_code} - {x.reason}')
+    #print(x.url)
     gjson = x.json()
     if gjson.get('code') is not None and gjson['code'] == 9005:
         print("No route found")
+        myLogger.critical("NO ROUTE FOUND between {steder[0]} and {steder[-1]}")
     else:
         newgjson = {
             "type": "FeatureCollection",
@@ -142,13 +165,14 @@ def leggRutePaaKart(map, steder, baseurl):
     ## Henter ut den tilgjengelige ruta.    
     url = baseurl+'?Stops='+stopParam+'&InputSRS=EPSG_4326&OutputSRS=EPSG_4326&ReturnFields=Geometry&AvoidTrafficMessageTypes=roadclosed'
     if bruksklasse != "":
-        #baseurl = "https://www.vegvesen.no/ws/no/vegvesen/ruteplan/routingservice_v3_0/open/routingservice/api/Route/bruksklasseNormalTransport"
         url = baseurl+'?Stops='+stopParam+'&InputSRS=EPSG_4326&OutputSRS=EPSG_4326&ReturnFields=Geometry&AvoidTrafficMessageTypes=roadclosed'
         url = url + "&Bruksklasse=" + bruksklasse
     if height > 0:
         url = url + "&Height="+str(height)
-    print(url)
+    #print(url)
     x = requests.get(url)
+    myLogger.info(x.url)
+    myLogger.info(f'Status code: {x.status_code} - {x.reason}')
 
     gjson = x.json()
     if gjson.get('code') is not None and gjson['code'] == 9005:
@@ -171,6 +195,7 @@ def leggRutePaaKart(map, steder, baseurl):
 for steder in ruter:
     leggRutePaaKart(map, steder, baseurl)
 
+myLogger.info("Skriver resultat til fil")
 
 now = datetime.now() # current date and time
 date_time = now.strftime("%Y%m%d %H_%M_%S")
@@ -178,11 +203,9 @@ date_time = now.strftime("%Y%m%d %H_%M_%S")
 image = Image.new("RGB", (200, 70), "lightgray")
 draw = ImageDraw.Draw(image)
 
-#font = ImageFont.truetype("/usr/share/fonts/truetype/junicode/Junicode.ttf", size=10)
 font = ImageFont.truetype("Junicode.ttf", size=10)
 draw.text((10, 10), f"Status: {date_time} - {bruksklasse}", font=font, fill=(1, 1, 1))
 
-#font = ImageFont.truetype("/usr/share/fonts/truetype/junicode/Junicode.ttf", size=8)
 font = ImageFont.truetype("Junicode.ttf", size=8)
 draw.text((10, 30), f'Status for norske næringstransportruter basert', font=font, fill=(1, 1, 1))
 draw.text((10, 40), f'på NVDB og VTS vegmeldinger', font=font, fill=(1, 1, 1))
@@ -208,7 +231,7 @@ if makeImage:
 if makeWeb:
     map.save(f'{filnavn}.html')
 
-    
+myLogger.debug("Kart med ruter er ferdig")    
 
 
 
